@@ -8,7 +8,8 @@
       content="Ryantcsc's website. He's a web developer and this is the site where he post his works, achievements and education"
     />
     <meta
-Ryantcsc      content="projects, contact, articles, education, reviews, object oriented programming, html, web developer, programmer, hypertext markup language, roadmap, frontend, website"
+      name="keywords"
+      content="projects, contact, articles, education, reviews, object oriented programming, html, web developer, programmer, hypertext markup language, roadmap, frontend, website"
     />
     <meta name="author" content="Ryantcsc" />
     <meta name="occupation" content="web developer" />
@@ -21,14 +22,15 @@ Ryantcsc      content="projects, contact, articles, education, reviews, object o
     />
     <meta property="og:image" content="img/basic-html-example.webp" />
     <meta property="og:url" content="index.html" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Website</title>
   </head>
 
   <body>
-    <header>
+    <header class="navbar">
+        <img src="img/favicon-32x32.png" alt="logo">
+
       <nav>
-        <p>Ryantcsc</p>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
@@ -36,32 +38,38 @@ Ryantcsc      content="projects, contact, articles, education, reviews, object o
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <section>
-        <h1>Frontend Developer</h1>
-        <p>html only with proper layout, no styling</p>
-      </section>
     </header>
-    <aside>
-      <section>
+    <div class="hero">
+      <h1>Frontend Developer</h1>
+      <p class="hero-p">html only with proper layout, no styling</p>
+    </div>
+    <div class="wrapper">
+    <aside class="aside">
+      <section class="project-column">
         <h2>Projects</h2>
-        <article>
+        <article class="aside-article">
           <p>HTML Only Portfolio</p>
         </article>
-        <article>
+        
+        <article class="aside-article">
           <p>Calculator</p>
         </article>
-        <article>
+        
+        <article class="aside-article">
           <p>Quiz App</p>
         </article>
-        <article>
+        
+        <article class="aside-article">
           <p>Countdown Timer</p>
         </article>
-        <article>
+        
+        <article class="aside-article">
           <p>Product Upcoming Page</p>
         </article>
       </section>
     </aside>
-    <main>
+    </div>
+    <main class="column">
       <section>
         <h2>Work Experience</h2>
         <p>Solved all the frontend projects</p>
