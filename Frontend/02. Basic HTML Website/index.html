@@ -1,132 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <link rel="icon" type="image/png" href="favicon_io/favicon-32x32.png" />
     <meta charset="UTF-8" />
-    <meta name="description" content="Basic HTML Website" />
-    <meta name="author" content="Achmad Fahryan Nur" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link name="icon" type="image/png" href="favicon_io/favicon-32x32.png" />
-    <meta property="og:title" content="Basic HTML Website" />
-    <link rel="stylesheet" href="style.css" />
     <meta
-      property="og:instagram"
-      content="https://www.instagram.com/ryantcsc/"
+      name="description"
+      content="isaac alvarez's website. He's a web developer and this is the site where he post his works, achievements and education"
     />
-    <meta propery="og:GitHub" content="https://github.com/ryantcsc" />
-    <title>Basic HTML Website</title>
+    <meta
+      name="keywords"
+      content="projects, contact, articles, education, reviews, object oriented programming, html, web developer, programmer, hypertext markup language, roadmap, frontend, website"
+    />
+    <meta name="author" content="isaac alvarez" />
+    <meta name="occupation" content="web developer" />
+    <meta name="experience" content="1 month" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Isaac Website" />
+    <meta
+      property="og:description"
+      content="isaac alvarez's website. He's a web developer and this is the site where he post his works, achievements and education"
+    />
+    <meta property="og:image" content="img/basic-html-example.webp" />
+    <meta property="og:url" content="index.html" />
+    <title>Website</title>
   </head>
+
   <body>
     <header>
-      <nav
-        style="
-          background-color: blanchedalmond;
-          border-color: black;
-          padding: 26px;
-        "
-        class="container"
-      >
-        <img
-          style="width: 50px"
-          src="favicon_io/favicon-32x32.png"
-          alt="logo1"
-        />
-        <nav class="nav-container">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <span>/</span>
-            <li><a href="project.html">Project</a></li>
-            <span>/</span>
-            <li><a href="article.html">Article</a></li>
-            <span>/</span>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <p>Ryantcsc</p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="article.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
-      <div
-        class="hero"
-        style="
-          text-align: center;
-          padding: 40px;
-          position: static;
-          border-width: 1px;
-          border-color: black;
-          align-content: space-around;
-        "
-      >
+      <section>
         <h1>Frontend Developer</h1>
-        <h6>HTML only with proper layout, no styling</h6>
-      </div>
-      <section class="three-column">
-        <style>
-          .three-column {
-            width: auto;
-            display: grid;
-            border-color: black;
-            grid-template-columns: repeat(3, 1fr);
-            gap: -1px;
-            border-collapse: separate;
-            margin-top: 0;
-          }
-        </style>
-        <article class="column" style="width: 250px;">
-          <div class="row" >
-            <h3 style="margin-bottom: 0px; margin-left: 8px">Project</h3>
-            <p style="margin-left: 8px">HTML Only Portfolio</p>
-          </div>
-          <ul style="border-bottom: solid">
-            <li>Calculator</li>
-            <li>Quiz App</li>
-            <li>Countdown Timer</li>
-            <li>Product Upcoming Page</li>
-          </ul>
-        </article>
-        <article class="column">
-          <div class="row">
-            <h3>Work Experience</h3>
-            <ul>
-              <li style="font-family: cursive; font-size: large">Roadmap.sh</li>
-              <p>Solved all the frontend project</p>
-              <a style="margin-bottom: 8px" href="profile.html"
-                >Visit my Profile</a
-              >
-            </ul>
-          </div>
-          <div class="row">
-            <ul>
-              <li style="font-family: cursive; font-size: large">
-                OpenSource Work
-              </li>
-
-              <p>
-                Contributed to 50 OpenSource project. Made my own projects with
-                200 GitHub Stars.
-              </p>
-              <a href="https://github.com/ryantcsc">Visit my GitHub profile</a>
-            </ul>
-          </div>
-        </article>
-
-        <article class="column" style="border-color: black">
-          <h3>Education</h3>
-          <p style="margin-left: 8px">
-            Graduated with 3.76 out of 4 CGPA. Won Acme Hackatho. Organized 30
-            sessions.
-          </p>
-          <p style="margin-left: 8px">Course I took:</p>
-          <ul>
-            <li>Object Oriented Programming</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Engineering</li>
-            <li>Artificial Intellegence</li>
-            <li>Human Computer Interaction</li>
-            <li>Computer Graphics</li>
-            <li>Database Management Systems</li>
-            <li>Distributed Database Systems</li>
-            <li>Discreet Mathematics</li>
-          </ul>
-        </article>
+        <p>html only with proper layout, no styling</p>
       </section>
     </header>
+    <aside>
+      <section>
+        <h2>Projects</h2>
+        <article>
+          <p>HTML Only Portfolio</p>
+        </article>
+        <article>
+          <p>Calculator</p>
+        </article>
+        <article>
+          <p>Quiz App</p>
+        </article>
+        <article>
+          <p>Countdown Timer</p>
+        </article>
+        <article>
+          <p>Product Upcoming Page</p>
+        </article>
+      </section>
+    </aside>
+    <main>
+      <section>
+        <h2>Work Experience</h2>
+        <p>Solved all the frontend projects</p>
+        <a href="https://roadmap.sh/u/isalvarezdev">Visit my Profile</a>
+      </section>
+      <section>
+        <h2>OpenSource Work</h2>
+        <p>
+          Contributed to 50 opensource projects. Made my own projects with 200
+          GitHub Stars
+        </p>
+        <a href="https://github.com/isAlvarezDev">Visit my GitHub Profile</a>
+      </section>
+    </main>
+    <aside>
+      <h2>Education</h2>
+      <p>
+        Graduated with 3.76 out of 4
+        <dfn id="cgpa"
+          ><abbr title="Cumulative Grade Point Average">CGPA</abbr></dfn
+        >. Won Acme Hackathon Organized 30 sessions.
+      </p>
+      <p>Courses I took:</p>
+      <ul>
+        <li>Object Oriented Programming</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Web Engineering</li>
+        <li>Artificial Intelligence</li>
+        <li>Human Computer Interaction</li>
+        <li>Computer Graphics</li>
+        <li>Database Management Systems</li>
+        <li>Distributed Database Systems</li>
+        <li>Discreet Mathematics</li>
+      </ul>
+    </aside>
+    <footer>
+      <section>
+        <h2>Reviews from my Teachers</h2>
+        <article>
+          <q
+            >John doe was a brilliant student; always stood out with his
+            assignments.</q
+          >
+          <figcaption>
+            <cite>Jane Doe</cite><br />
+            Assistant Professor
+          </figcaption>
+        </article>
+        <article>
+          <q
+            >John doe was a brilliant student; always stood out with his
+            assignments.</q
+          >
+          <figcaption>
+            <cite>Jane Doe</cite><br />
+            Assistant Professor
+          </figcaption>
+        </article>
+        <article>
+          <q
+            >John doe was a brilliant student; always stood out with his
+            assignments.</q
+          >
+          <figcaption>
+            <cite>Jane Doe</cite><br />
+            Assistant Professor
+          </figcaption>
+        </article>
+        <p>&copy; all rights reserved 2025</p>
+      </section>
+    </footer>
   </body>
 </html>
