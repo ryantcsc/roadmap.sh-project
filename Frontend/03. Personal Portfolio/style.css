@@ -154,3 +154,16 @@ a {
 main column {
     position: absolute;
 }
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 6 / 2; }
+.div2 { grid-area: 1 / 2 / 6 / 4; }
+.div3 { grid-area: 1 / 4 / 6 / 6; }
+.div4 { grid-area: 5 / 1 / 6 / 6; }
