@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  border-radius: 12px;
+  border-color: #ff9f55;
+}
+
+.container-header {
+  border: 2px solid;
+  display: contents;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+h1 {
+  margin-bottom: 0;
+}
+
+.timeline {
+  position: relative;
+
+  margin: 0 auto;
+}
+
+/* Garis vertikal di tengah */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #333;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-item {
+  padding: 0px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  box-sizing: border-box; /* Memastikan padding disertakan dalam lebar */
+}
+
+/* Penempatan item ke kiri */
+.timeline-item.left {
+  left: 0;
+  margin-right: 8px;
+  text-align: right;
+}
+
+/* Penempatan item ke kanan */
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+/* Titik lingkaran pada garis */
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.left::after {
+  right: -12.5px; /* Menyelaraskan lingkaran di tengah garis */
+}
+
+.timeline-item.right::after {
+  left: -12.5px; /* Menyelaraskan lingkaran di tengah garis */
+}
+
+.timeline-content {
+  padding: 20px 30px;
+  max: width 100px;
+
+  background-color: #fff;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+time {
+  font-weight: bold;
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Responsif: tumpuk item menjadi satu kolom di layar kecil */
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    gap: 12px;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 25px;
+    text-align: left; /* Teks selalu ke kiri di mode mobile */
+  }
+
+  .timeline-item.right {
+    left: 0%;
+  }
+
+  .timeline-item.left::after,
+  .timeline-item.right::after {
+    left: 18px;
+  }
+}
+
+.btn {
+  position: relative;
+  align-items: center;
+  padding: 16px;
+  border-style: none;
+  align-content: center;
+  background-color: grey;
+  border-radius: 8px;
+  gap: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.5, 0.5);
+  margin-top: 1rem;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #f4f4f4;
+  transition: 300ms;
+}
