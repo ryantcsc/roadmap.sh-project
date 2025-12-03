@@ -3,8 +3,9 @@
 Folder ini berisi proyek "Basic HTML Website" sesuai roadmap.sh.
 
 Link proyek: https://roadmap.sh/projects/basic-html-website
-
-https://roadmap.sh/projects/portfolio-website
+02. 
+03. https://roadmap.sh/projects/portfolio-website
+04. https://roadmap.sh/projects/changelog-component
 
 Deskripsi singkat:
 - Contoh halaman HTML dasar untuk belajar struktur HTML, pengaturan file statis, dan dasar CSS.
