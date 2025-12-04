@@ -13,4 +13,5 @@ Fitur
 Sumber Proyek
 
 Proyek ini berasal dari roadmap.sh
-Link resmi: https://roadmap.sh/projects/changelog-component
+Link resmi: https://roadmap.sh/projects/changelog-component 
+https://roadmap.sh/projects/changelog-component
