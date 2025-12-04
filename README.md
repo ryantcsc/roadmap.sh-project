@@ -7,6 +7,7 @@ Link proyek: https://roadmap.sh/projects/basic-html-website
 2. 
 3. https://roadmap.sh/projects/portfolio-website
 4. https://roadmap.sh/projects/changelog-component
+5. https://roadmap.sh/projects/testimonial-cards
 
 Deskripsi singkat:
 - Contoh halaman HTML dasar untuk belajar struktur HTML, pengaturan file statis, dan dasar CSS.
