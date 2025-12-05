@@ -1,0 +1,41 @@
+body {
+}
+
+.input-tgl {
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 8px;
+}
+
+.bulan {
+  text-align: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+span {
+  margin: 8px;
+}
+
+.table {
+  border: 2px solid;
+}
+
+.table table-bordered {
+  text-align: center;
+  align-content: center;
+}
+
+th {
+  color: red;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
