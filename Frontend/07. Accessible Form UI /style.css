@@ -1,0 +1,61 @@
+body {
+  padding: 16px;
+  grid-column: auto;
+}
+
+br {
+  line-height: 8px;
+}
+
+.btn {
+  background: #000;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.mb-3 {
+  border-radius: 8px;
+}
+
+label {
+  margin-top: 4px;
+}
+
+input {
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+}
+
+.progress {
+  margin-top: 24px;
+  width: 50%;
+}
+
+.value {
+  display: flex;
+}
+
+.passHelp {
+  color: red;
+  background: pink;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+p {
+  margin: 1rem;
+}
+
+::placeholder {
+  margin: 8px;
+}
