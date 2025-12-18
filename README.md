@@ -12,8 +12,8 @@ Link proyek: https://roadmap.sh/projects/basic-html-website
 6. [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
 7. [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 8. [Image Grid Layout](https://roadmap.sh/projects/image-grid)
-
-Deskripsi singkat:
+9. [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
+   Deskripsi singkat:
 
 - Contoh halaman HTML dasar untuk belajar struktur HTML, pengaturan file statis, dan dasar CSS.
 
