@@ -62,12 +62,16 @@ a {
   border-radius: 24px;
   margin: 2rem;
   border: 2px solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .cookie-banner img {
   justify-content: center;
-  display: flex;
-  width: ;
+  padding: 1rem;
+  margin-bottom: 0px;
+  align-content: center;
+  width: 100px;
+  height: 100px;
   align-items: center;
 }
 
@@ -77,7 +81,11 @@ a {
   text-align: justify;
 }
 
-.cookie-banner h2 {
+.cookie-banner header {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+
   margin: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
