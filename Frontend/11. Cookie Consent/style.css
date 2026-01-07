@@ -12,13 +12,12 @@ html {
 body {
   font-family: "Inter", sans-serif;
   background-color: #f5f5f5;
+  display: flex;
+  height: 100vh;
   color: #333;
   line-height: 1.6;
-}
-
-img {
-  max-width: 100%;
-  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -35,11 +34,6 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem;
-}
-
-.icon {
-  width: 100px;
-  height: 100px;
 }
 
 /* FLEX */
@@ -61,22 +55,29 @@ a {
 }
 
 /* banner */
-.banner {
+.cookie-banner {
   width: 500px;
+  position: fixed;
   max-width: fit-content;
-  border-radius: 8px;
+  border-radius: 24px;
   margin: 2rem;
-  background-color: yellow;
-  border-color: black;
+  border: 2px solid;
 }
 
-.banner p {
+.cookie-banner img {
+  justify-content: center;
+  display: flex;
+  width: ;
+  align-items: center;
+}
+
+.cookie-banner p {
   margin: 2rem;
   margin-top: 1rem;
   text-align: justify;
 }
 
-.banner h2 {
+.cookie-banner h2 {
   margin: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -156,10 +157,12 @@ nav .nav-links {
 .button {
   align-items: center;
   align-content: center;
+  justify-content: center;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
   gap: 8px;
   alignment-baseline: middle;
-  border: 2px solid;
 }
 
 .btn {
