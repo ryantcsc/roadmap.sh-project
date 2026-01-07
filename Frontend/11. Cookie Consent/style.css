@@ -37,6 +37,11 @@ a {
   padding: 1.5rem;
 }
 
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
 /* FLEX */
 .flex {
   display: flex;
@@ -147,8 +152,19 @@ nav .nav-links {
 }
 
 /* BUTTON */
+
+.button {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 8px;
+  alignment-baseline: middle;
+  border: 2px solid;
+}
+
 .btn {
   display: inline-block;
+  position: relative;
   padding: 0.7rem 1.2rem;
   border-radius: 6px;
   cursor: pointer;
@@ -158,21 +174,21 @@ nav .nav-links {
 }
 
 .btn:hover {
-  color: #0069d9;
+  background-color: #fff;
   border-color: #333;
 }
 
 .btn-primary {
   padding: 0.7rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
+  border-radius: 8px;
   border-color: #333;
   transition: 0.2s;
   font-weight: 500;
 }
 
 .btn-primary:hover {
-  background: #0069d9;
+  background: black;
+  color: #fff;
 }
 
 /* CARD */
