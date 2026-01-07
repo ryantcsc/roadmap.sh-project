@@ -64,6 +64,20 @@ a {
   background-color: yellow;
   border-color: black;
 }
+
+.banner p {
+  margin: 2rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.banner h2 {
+  margin: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 /* GRID */
 .grid {
   display: grid;
@@ -149,7 +163,6 @@ nav .nav-links {
 }
 
 .btn-primary {
-  display: inline-block;
   padding: 0.7rem 1.2rem;
   border-radius: 6px;
   cursor: pointer;
