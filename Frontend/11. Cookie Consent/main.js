@@ -5,7 +5,6 @@ const rejectBtn = document.querySelector(".rejectBtn");
 acceptBtn.onclick = () => {
   {
     document.cookie = "CookieBy=Ryan; max-age=0; path=/";
-    location.reload();
   }
   if (document.cookie) {
     cookieBanner.classList.add("hide");
