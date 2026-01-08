@@ -1,11 +1,14 @@
 const cookieBanner = document.getElementById("cookie-banner");
-const acceptBtn = document.querySelector("acceptBtn");
-const rejectBtn = document.querySelector("rejectBtn");
+const acceptBtn = document.querySelector(".acceptBtn");
+const rejectBtn = document.querySelector(".rejectBtn");
 
 acceptBtn.onclick = () => {
-  document.cookie = "CookieBy=GeeksForGeeks; max-age=" + 60 * 60 * 24;
+  {
+    document.cookie = "CookieBy=Ryan; max-age=0; path=/";
+    location.reload();
+  }
   if (document.cookie) {
-    consentBox.classList.add("hide");
+    cookieBanner.classList.add("hide");
   } else {
     alert(
       "Cookie can't be set! Please" +
@@ -17,10 +20,10 @@ acceptBtn.onclick = () => {
 
 rejectBtn.onclick = () => {
   alert("Cookies rejected. Some functionality may be limited.");
-  consentBox.classList.add("hide");
+  cookieBanner.classList.add("hide");
 };
 
-let checkCookie = document.cookie.indexOf("CookieBy=GeeksForGeeks");
+let checkCookie = document.cookie.indexOf("CookieBy=Ryan");
 checkCookie !== -1
-  ? consentBox.classList.add("hide")
-  : consentBox.classList.remove("hide");
+  ? cookieBanner.classList.add("hide")
+  : cookieBanner.classList.remove("hide");

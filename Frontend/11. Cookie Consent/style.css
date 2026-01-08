@@ -55,7 +55,7 @@ a {
 }
 
 /* banner */
-.cookie-banner {
+#cookie-banner {
   width: 500px;
   position: fixed;
   max-width: fit-content;
@@ -66,7 +66,11 @@ a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.cookie-banner img {
+#cookie-banner.hide {
+  display: none;
+}
+
+#cookie-banner img {
   justify-content: center;
   padding: 1rem;
   display: inline-block;
@@ -77,13 +81,13 @@ a {
   align-items: center;
 }
 
-.cookie-banner p {
+#cookie-banner p {
   margin: 2rem;
   margin-top: 1rem;
   text-align: justify;
 }
 
-.cookie-banner header {
+#cookie-banner header {
   font-size: 25px;
   font-weight: 600;
   margin-top: 10px;
@@ -190,6 +194,10 @@ nav .nav-links {
 .rejectBtn:hover {
   background-color: #ddd;
   border-color: #333;
+}
+
+.hide {
+  display: none;
 }
 
 .acceptBtn {
