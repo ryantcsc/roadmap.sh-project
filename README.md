@@ -15,8 +15,7 @@ Link proyek: https://roadmap.sh/projects/basic-html-website
 9. [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 10. [Tabs](https://roadmap.sh/projects/simple-tabs)
 11. [Cookie Constent](https://roadmap.sh/projects/cookie-consent)
-
-- Contoh halaman HTML dasar untuk belajar struktur HTML, pengaturan file statis, dan dasar CSS.
+12. [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
 
 Cara menggunakan:
 
