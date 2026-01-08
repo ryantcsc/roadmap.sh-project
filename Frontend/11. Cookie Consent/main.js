@@ -1,6 +1,6 @@
 const cookieBanner = document.getElementById("cookie-banner");
-const acceptBtn = document.querySelector(".btn-primary");
-const rejectBtn = document.querySelector(".btn");
+const acceptBtn = document.querySelector("acceptBtn");
+const rejectBtn = document.querySelector("rejectBtn");
 
 acceptBtn.onclick = () => {
   document.cookie = "CookieBy=GeeksForGeeks; max-age=" + 60 * 60 * 24;
